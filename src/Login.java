@@ -21,7 +21,7 @@ public class Login {
         btnClear.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                textUserLogin.setText("");
+                textUserLogin.setText(" ");
                 pwdUserPassword.setText("");
             }
         });
